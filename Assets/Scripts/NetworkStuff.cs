@@ -38,7 +38,7 @@ public class NetworkStuff : MonoBehaviour {
 	void Update () 
 	{
 
-		if(Application.loadedLevel == "MainGame"){
+		if(Application.loadedLevel == 1){
 			if(Network.peerType==NetworkPeerType.Server)
 			{
 				NetworkViewID viewID = Network.AllocateViewID();
@@ -60,7 +60,7 @@ public class NetworkStuff : MonoBehaviour {
 			}
 			else if (Network.peerType==NetworkPeerType.Disconnected)
 			{
-				networkView.RPC ("endGame");
+				networkView.RPC ("endGame", RPCMode.All);
 			}
 		}
 
