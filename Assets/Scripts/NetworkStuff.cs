@@ -3,7 +3,7 @@ using System.Collections;
 
 public class NetworkStuff : MonoBehaviour {
 	public int Port = 25001;
-	public bool penisToggle =false;
+	public bool penisToggle = false;
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad(transform.gameObject);
