@@ -38,21 +38,27 @@ public class NetworkStuff : MonoBehaviour {
 	void Update () 
 	{
 
-		if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
-		 {
-			if(Network.peerType==NetworkPeerType.Server)
+
+		if(Network.peerType==NetworkPeerType.Server)
+		{
+			NetworkViewID viewID = Network.AllocateViewID();
+			if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
 			{
-				NetworkViewID viewID = Network.AllocateViewID();
 				networkView.RPC ("actionKey",RPCMode.All,true, "Player1");
 			}
-			else if (Network.peerType==NetworkPeerType.Client)
+			networkView.RPC ("actionKey",RPCMode.All, "Player1");
+		}
+		else if (Network.peerType==NetworkPeerType.Client)
+		{
+			NetworkViewID viewID = Network.AllocateViewID();
+			if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
 			{
 
-				NetworkViewID viewID = Network.AllocateViewID();
 				networkView.RPC ("actionKey",RPCMode.All,true, "Player2");
-
 			}
+			networkView.RPC ("actionKey",RPCMode.All, "Player2");
 		}
+
 	}
 	[RPC]
 	void actionKey(bool isDown, string playerName)
@@ -60,6 +66,15 @@ public class NetworkStuff : MonoBehaviour {
 		GameObject obj =GameObject.Find(playerName);
 		PlayerInventory other =(PlayerInventory) obj.GetComponent(typeof(PlayerInventory));
 		other.playerAction=true;
+	}
+
+	[RPC]
+	void actionKey(string playerName)
+	{
+		GameObject obj =GameObject.Find(playerName);
+		PlayerController other =(PlayerController) obj.GetComponent(typeof(PlayerController));
+		other._horizontal = Input.GetAxis("Horizontal1");
+		other._vertical = Input.GetAxis("Vertical1");
 	}
 
 	[RPC]
