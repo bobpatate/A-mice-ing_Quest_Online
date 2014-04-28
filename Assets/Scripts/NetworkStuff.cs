@@ -69,7 +69,7 @@ public class NetworkStuff : MonoBehaviour {
 	}
 
 	[RPC]
-	void moveKey(string playerName, float vert,float hor)
+	void moveKey(string playerName, float hor,float vert)
 	{
 		GameObject obj =GameObject.Find(playerName);
 		PlayerController other =(PlayerController) obj.GetComponent(typeof(PlayerController));
