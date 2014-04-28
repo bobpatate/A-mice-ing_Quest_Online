@@ -2,7 +2,9 @@
 using System.Collections;
 
 public class PlayerInventory : MonoBehaviour {
-	
+
+	static bool playerAction = false;
+
 	public Ressource[] inventaire = new Ressource[10];
 	private bool isInCollectingRange = false;
 	private bool showCollectTimeBar = false;
@@ -43,8 +45,9 @@ public class PlayerInventory : MonoBehaviour {
 	void Update () {
 		if (isInCollectingRange && collectible.GetComponent<RessourceStats>().harvested == false)
 		{
-			if ((Input.GetKeyDown(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")) && !isCollecting && playerNumber==1)
+			if (playerAction && !isCollecting)
 			{
+				playerAction = false;
 				isCollecting = true;
 				showCollectTimeBar = true;
 				rigidbody.velocity = new Vector3(0,0,0);
@@ -52,21 +55,6 @@ public class PlayerInventory : MonoBehaviour {
 				rigidbody.constraints = RigidbodyConstraints.FreezeAll;
 
 
-				collectingStartTime = Time.time;
-				collectingTime = Time.time + (collectible.GetComponent<RessourceStats>().collectingTime*collectible.GetComponent<RessourceStats>().tier*collectible.GetComponent<RessourceStats>().tier) / collectingSpeed;
-				collectibleName = collectible.name;
-
-				audioSource.GetComponent<MusicPlayer>().playHarvestSound();
-			}
-			else if ((Input.GetKeyDown(KeyCode.RightControl)|| Input.GetButtonUp("joystick 2 button 0")) && !isCollecting && playerNumber==2)
-			{
-				isCollecting = true;
-				showCollectTimeBar = true;
-				rigidbody.velocity = new Vector3(0,0,0);
-				playerControllerScript.enabled = false;
-				rigidbody.constraints = RigidbodyConstraints.FreezeAll;
-
-				
 				collectingStartTime = Time.time;
 				collectingTime = Time.time + (collectible.GetComponent<RessourceStats>().collectingTime*collectible.GetComponent<RessourceStats>().tier*collectible.GetComponent<RessourceStats>().tier) / collectingSpeed;
 				collectibleName = collectible.name;

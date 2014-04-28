@@ -2,6 +2,10 @@
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
+
+	public float horizontalAxis = 0f;
+	public float verticalAxis = 0f;
+
 	public string modelChild = "player_mouse";
 
 	private float _horizontal, _vertical;
@@ -18,8 +22,10 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		_horizontal = Input.GetAxis(horizontal);
-		_vertical = Input.GetAxis(vertical);
+		_horizontal = horizontalAxis;
+		_vertical = verticalAxis;
+		//Input.GetAxis(horizontal);
+		//_vertical = Input.GetAxis(vertical)
 		
 		Vector3 targetVelocity = new Vector3(_horizontal, 0, _vertical);
 		targetVelocity = transform.rotation*targetVelocity;
