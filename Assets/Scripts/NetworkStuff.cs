@@ -18,8 +18,9 @@ public class NetworkStuff : MonoBehaviour {
 			Debug.Log("MES PENISS");
 		}
 
-		if (Network.peerType==NetworkPeerType.Client)
+		if (Network.peerType==NetworkPeerType.Client){
 			startGameMessage();
+		}
 	}
 	public void CreateServer(string ip)
 	{
@@ -50,6 +51,7 @@ public class NetworkStuff : MonoBehaviour {
 			}
 		}
 	}
+
 	[RPC]
 	void monPenis()
 	{
