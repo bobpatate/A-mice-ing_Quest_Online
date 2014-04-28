@@ -765,6 +765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 1250984187}
+  stringToEdit: Ip address
 --- !u!4 &751525095
 Transform:
   m_ObjectHideFlags: 0
@@ -1412,6 +1413,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1250984189}
   - 114: {fileID: 1250984188}
+  - 148: {fileID: 1250984190}
   m_Layer: 0
   m_Name: NetworkStuffObj
   m_TagString: Untagged
@@ -1430,7 +1432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc2acbe6fc67114ca284ac61cd0acf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stringToEdit: Ip address
+  Port: 25001
+  penisToggle: 0
 --- !u!4 &1250984189
 Transform:
   m_ObjectHideFlags: 0
@@ -1442,6 +1445,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!148 &1250984190
+NetworkView:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1250984187}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 1250984189}
+  m_ViewID:
+    m_ID: 1
+    m_Type: 1
 --- !u!1 &1288124686
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,6 +36,7 @@ public class NetworkStuff : MonoBehaviour {
 		else if (Network.peerType==NetworkPeerType.Client)
 		{
 			if(penisToggle){
+				NetworkViewID viewID = Network.AllocateViewID();
 				networkView.RPC ("monPenis",RPCMode.Server);
 				penisToggle = false;
 			}
