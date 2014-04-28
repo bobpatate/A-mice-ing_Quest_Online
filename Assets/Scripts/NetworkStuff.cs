@@ -38,25 +38,30 @@ public class NetworkStuff : MonoBehaviour {
 	void Update () 
 	{
 
-
-		if(Network.peerType==NetworkPeerType.Server)
-		{
-			NetworkViewID viewID = Network.AllocateViewID();
-			if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
+		if(Application.loadedLevel == "MainGame"){
+			if(Network.peerType==NetworkPeerType.Server)
 			{
-				networkView.RPC ("actionKey",RPCMode.All,true, "Player1");
+				NetworkViewID viewID = Network.AllocateViewID();
+				if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
+				{
+					networkView.RPC ("actionKey",RPCMode.All,true, "Player1");
+				}
+				networkView.RPC ("moveKey",RPCMode.All, "Player1",Input.GetAxis("Horizontal1"),Input.GetAxis("Vertical1"));
 			}
-			networkView.RPC ("moveKey",RPCMode.All, "Player1",Input.GetAxis("Horizontal1"),Input.GetAxis("Vertical1"));
-		}
-		else if (Network.peerType==NetworkPeerType.Client)
-		{
-			NetworkViewID viewID = Network.AllocateViewID();
-			if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
+			else if (Network.peerType==NetworkPeerType.Client)
 			{
+				NetworkViewID viewID = Network.AllocateViewID();
+				if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
+				{
 
-				networkView.RPC ("actionKey",RPCMode.All,true, "Player2");
+					networkView.RPC ("actionKey",RPCMode.All,true, "Player2");
+				}
+					networkView.RPC ("moveKey",RPCMode.All, "Player2",Input.GetAxis("Horizontal1"),Input.GetAxis("Vertical1"));
 			}
-				networkView.RPC ("moveKey",RPCMode.All, "Player2",Input.GetAxis("Horizontal1"),Input.GetAxis("Vertical1"));
+			else if (Network.peerType==NetworkPeerType.Disconnected)
+			{
+				networkView.RPC ("endGame");
+			}
 		}
 
 	}
@@ -81,6 +86,13 @@ public class NetworkStuff : MonoBehaviour {
 	void startGame()
 	{
 		Application.LoadLevel("MainGame");
+	}
+
+	[RPC]
+	void endGame()
+	{
+		Application.LoadLevel("MainMenu");
+		Destroy(this);
 	}
 
 }

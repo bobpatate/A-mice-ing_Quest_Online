@@ -1433,7 +1433,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Port: 25001
-  penisToggle: 0
 --- !u!4 &1250984189
 Transform:
   m_ObjectHideFlags: 0

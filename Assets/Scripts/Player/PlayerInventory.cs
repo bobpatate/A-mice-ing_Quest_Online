@@ -63,8 +63,6 @@ public class PlayerInventory : MonoBehaviour {
 
 			if(isCollecting && Time.time > collectingTime)
 				doneCollecting();
-
-			playerAction = false;
 		}
 		else if(isInCollectingRange && collectible.GetComponent<RessourceStats>().harvested == true)
 		{
@@ -90,6 +88,8 @@ public class PlayerInventory : MonoBehaviour {
 
 			}
 		}
+
+		playerAction = false;
 	}
 
 	void doneCollecting(){
