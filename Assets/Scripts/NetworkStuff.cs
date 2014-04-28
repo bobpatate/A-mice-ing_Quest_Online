@@ -15,9 +15,11 @@ public class NetworkStuff : MonoBehaviour {
 		if(Network.peerType==NetworkPeerType.Disconnected)
 		{
 			Network.Connect(ip,Port);
-
 			Debug.Log("MES PENISS");
 		}
+
+		if (Network.peerType==NetworkPeerType.Client)
+			startGameMessage();
 	}
 	public void CreateServer(string ip)
 	{
