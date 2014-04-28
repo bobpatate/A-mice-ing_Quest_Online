@@ -26,6 +26,12 @@ public class NetworkStuff : MonoBehaviour {
 			Network.InitializeServer(5,Port);
 		}
 	}
+
+	public void startGameMessage()
+	{
+		NetworkViewID viewID = Network.AllocateViewID();
+		networkView.RPC ("startGame",RPCMode.All);
+	}
 	// Update is called once per frame
 	void Update () 
 	{
@@ -47,4 +53,10 @@ public class NetworkStuff : MonoBehaviour {
 	{
 		Debug.Log("monPenis");
 	}
+	[RPC]
+	void startGame()
+	{
+		Application.LoadLevel("MainGame");
+	}
+
 }
