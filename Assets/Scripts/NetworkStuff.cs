@@ -3,7 +3,6 @@ using System.Collections;
 
 public class NetworkStuff : MonoBehaviour {
 	public int Port = 25001;
-	public bool penisToggle = false;
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad(transform.gameObject);
@@ -38,25 +37,31 @@ public class NetworkStuff : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if(Network.peerType==NetworkPeerType.Server)
-		{
-				
-		}
-		else if (Network.peerType==NetworkPeerType.Client)
-		{
-			if(penisToggle){
+
+		if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
+		 {
+			if(Network.peerType==NetworkPeerType.Server)
+			{
 				NetworkViewID viewID = Network.AllocateViewID();
-				networkView.RPC ("monPenis",RPCMode.Server);
-				penisToggle = false;
+				networkView.RPC ("actionKey",RPCMode.All,true, "Player1");
+			}
+			else if (Network.peerType==NetworkPeerType.Client)
+			{
+
+				NetworkViewID viewID = Network.AllocateViewID();
+				networkView.RPC ("actionKey",RPCMode.All,true, "Player2");
+
 			}
 		}
 	}
-
 	[RPC]
-	void monPenis()
+	void actionKey(bool isDown, string playerName)
 	{
-		Debug.Log("monPenis");
+		GameObject obj =GameObject.Find(playerName);
+		PlayerInventory other =(PlayerInventory) obj.GetComponent(typeof(PlayerInventory));
+		other.playerAction=true;;
 	}
+
 	[RPC]
 	void startGame()
 	{
