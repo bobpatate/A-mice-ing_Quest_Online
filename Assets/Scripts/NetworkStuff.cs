@@ -46,7 +46,7 @@ public class NetworkStuff : MonoBehaviour {
 			{
 				networkView.RPC ("actionKey",RPCMode.All,true, "Player1");
 			}
-			networkView.RPC ("actionKey",RPCMode.All, "Player1");
+			networkView.RPC ("moveKey",RPCMode.All, "Player1");
 		}
 		else if (Network.peerType==NetworkPeerType.Client)
 		{
@@ -56,7 +56,7 @@ public class NetworkStuff : MonoBehaviour {
 
 				networkView.RPC ("actionKey",RPCMode.All,true, "Player2");
 			}
-			networkView.RPC ("actionKey",RPCMode.All, "Player2");
+			networkView.RPC ("movenKey",RPCMode.All, "Player2");
 		}
 
 	}
@@ -69,7 +69,7 @@ public class NetworkStuff : MonoBehaviour {
 	}
 
 	[RPC]
-	void actionKey(string playerName)
+	void moveKey(string playerName)
 	{
 		GameObject obj =GameObject.Find(playerName);
 		PlayerController other =(PlayerController) obj.GetComponent(typeof(PlayerController));
