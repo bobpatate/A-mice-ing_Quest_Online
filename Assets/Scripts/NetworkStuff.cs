@@ -41,7 +41,8 @@ public class NetworkStuff : MonoBehaviour {
 		if(Application.loadedLevel == 1){
 			if (Network.peerType==NetworkPeerType.Disconnected ||(Network.peerType==NetworkPeerType.Server&&Network.connections.Length==0))
 			{
-				networkView.RPC ("endGame", RPCMode.All);
+				Application.LoadLevel("MainMenu");
+				Destroy(this.gameObject);
 			}
 			else if(Network.peerType==NetworkPeerType.Server)
 			{
@@ -89,11 +90,6 @@ public class NetworkStuff : MonoBehaviour {
 		Application.LoadLevel("MainGame");
 	}
 
-	[RPC]
-	void endGame()
-	{
-		Application.LoadLevel("MainMenu");
-		Destroy(this);
-	}
+
 
 }
