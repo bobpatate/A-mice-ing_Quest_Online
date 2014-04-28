@@ -39,7 +39,11 @@ public class NetworkStuff : MonoBehaviour {
 	{
 
 		if(Application.loadedLevel == 1){
-			if(Network.peerType==NetworkPeerType.Server)
+			if (Network.peerType==NetworkPeerType.Disconnected ||(Network.peerType==NetworkPeerType.Server&&Network.connections.Length==0))
+			{
+				networkView.RPC ("endGame", RPCMode.All);
+			}
+			else if(Network.peerType==NetworkPeerType.Server)
 			{
 				NetworkViewID viewID = Network.AllocateViewID();
 				if ((Input.GetKeyUp(KeyCode.E) || Input.GetButtonUp("joystick 1 button 0")))
@@ -58,10 +62,7 @@ public class NetworkStuff : MonoBehaviour {
 				}
 					networkView.RPC ("moveKey",RPCMode.All, "Player2",Input.GetAxis("Horizontal1"),Input.GetAxis("Vertical1"));
 			}
-			else if (Network.peerType==NetworkPeerType.Disconnected)
-			{
-				networkView.RPC ("endGame", RPCMode.All);
-			}
+
 		}
 
 	}
