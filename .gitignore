@@ -1,0 +1,24 @@
+# IDE Specific
+*.csproj
+*.pidb
+*.sln
+*.userprefs
+*.unityproj
+*.suo
+Library/
+/Temp/
+
+
+# SourceTree Patch against .gitignore_global on Windows
+!*.exe
+!*.dll
+Library/ScriptAssemblies/
+Library/CurrentLayout.dwlt
+Library/ScriptAssemblies/CompilationCompleted.txt
+Library/ScriptAssemblies/Assembly-CSharp.dll
+Library/ScriptAssemblies/Assembly-CSharp.dll
+Library/assetDatabase3
+Library/guidmapper
+Assets/Textures/Thumbs.db.meta
+Assets/ShaderForge/
+Assets/ShaderForge.meta
