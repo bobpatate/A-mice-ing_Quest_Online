@@ -16,8 +16,11 @@ public class MainMenu : MonoBehaviour {
 
 		//Server
 		if (GUI.Button (new Rect (Screen.width*0.49f, Screen.height*0.58f, Screen.width*0.2f, Screen.height*0.15f), "Server")) {
+			GUI.Label (new Rect (Screen.width*0.49f, Screen.height*0.58f, Screen.width*0.2f, Screen.height*0.15f), "Waiting for other player...");
+
 			NetworkStuff other =(NetworkStuff) obj.GetComponent(typeof(NetworkStuff));
 			other.CreateServer(stringToEdit);
+
 		}
 	}
 }

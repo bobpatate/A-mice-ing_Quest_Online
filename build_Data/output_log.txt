@@ -11,7 +11,7 @@ Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\M
 Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.036 seconds
+- Completed reload, in  0.040 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -19,4 +19,12 @@ Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\M
 MES PENISS
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Failed to allocate view id because no NetworkView's were available to allocate from. You should increase the minimum client NetworkViewID count.
+ 
+(Filename:  Line: 1751)
+
+Can't send RPC function since no connection was started.
+ 
+(Filename:  Line: 2458)
 
