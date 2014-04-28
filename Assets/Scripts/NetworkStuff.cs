@@ -59,7 +59,7 @@ public class NetworkStuff : MonoBehaviour {
 	{
 		GameObject obj =GameObject.Find(playerName);
 		PlayerInventory other =(PlayerInventory) obj.GetComponent(typeof(PlayerInventory));
-		other.playerAction=true;;
+		other.playerAction=true;
 	}
 
 	[RPC]

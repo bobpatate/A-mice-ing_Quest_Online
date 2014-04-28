@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerInventory : MonoBehaviour {
 
-	static bool playerAction = false;
+	public bool playerAction = false;
 
 	public Ressource[] inventaire = new Ressource[10];
 	private bool isInCollectingRange = false;

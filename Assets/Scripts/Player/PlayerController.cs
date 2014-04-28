@@ -22,10 +22,10 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		_horizontal = horizontalAxis;
-		_vertical = verticalAxis;
-		//Input.GetAxis(horizontal);
-		//_vertical = Input.GetAxis(vertical)
+		_horizontal = Input.GetAxis(horizontal);
+		_vertical = Input.GetAxis(vertical);
+		//horizontalAxis;
+		//verticalAxis;
 		
 		Vector3 targetVelocity = new Vector3(_horizontal, 0, _vertical);
 		targetVelocity = transform.rotation*targetVelocity;
