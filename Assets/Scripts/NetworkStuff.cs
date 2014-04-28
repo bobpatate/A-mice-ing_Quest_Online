@@ -46,7 +46,7 @@ public class NetworkStuff : MonoBehaviour {
 			{
 				networkView.RPC ("actionKey",RPCMode.All,true, "Player1");
 			}
-			networkView.RPC ("moveKey",RPCMode.All, "Player1");
+			networkView.RPC ("moveKey",RPCMode.All, "Player1",Input.GetAxis("Horizontal1"),Input.GetAxis("Vertical1"));
 		}
 		else if (Network.peerType==NetworkPeerType.Client)
 		{
@@ -56,7 +56,7 @@ public class NetworkStuff : MonoBehaviour {
 
 				networkView.RPC ("actionKey",RPCMode.All,true, "Player2");
 			}
-			networkView.RPC ("movenKey",RPCMode.All, "Player2");
+				networkView.RPC ("moveKey",RPCMode.All, "Player2",Input.GetAxis("Horizontal1"),Input.GetAxis("Vertical1"));
 		}
 
 	}
@@ -69,12 +69,12 @@ public class NetworkStuff : MonoBehaviour {
 	}
 
 	[RPC]
-	void moveKey(string playerName)
+	void moveKey(string playerName, float vert,float hor)
 	{
 		GameObject obj =GameObject.Find(playerName);
 		PlayerController other =(PlayerController) obj.GetComponent(typeof(PlayerController));
-		other._horizontal = Input.GetAxis("Horizontal1");
-		other._vertical = Input.GetAxis("Vertical1");
+		other._horizontal = hor;
+		other._vertical = vert;
 	}
 
 	[RPC]
