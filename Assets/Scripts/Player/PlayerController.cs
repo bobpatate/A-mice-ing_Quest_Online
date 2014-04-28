@@ -3,12 +3,9 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	public float horizontalAxis = 0f;
-	public float verticalAxis = 0f;
-
 	public string modelChild = "player_mouse";
 
-	private float _horizontal, _vertical;
+	public float _horizontal, _vertical;
 	
 	public float _maxVelocityChange = 5.0f;
 	public float _speed = 5.0f;
@@ -21,12 +18,7 @@ public class PlayerController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		_horizontal = Input.GetAxis(horizontal);
-		_vertical = Input.GetAxis(vertical);
-		//horizontalAxis;
-		//verticalAxis;
-		
+	void Update () {		
 		Vector3 targetVelocity = new Vector3(_horizontal, 0, _vertical);
 		targetVelocity = transform.rotation*targetVelocity;
 		targetVelocity *= _speed;
