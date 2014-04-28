@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.8451805, y: 154.004639, z: 73.0629044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722f616b9f7cfb74fba58c66f3156f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconWepT0: {fileID: 2800000, guid: 418923ea7b055894b93185ada9bf2e1b, type: 3}
+  iconWepT1: {fileID: 2800000, guid: a27b9621ff01eae439e0498b5f37dd13, type: 3}
+  iconWepT2: {fileID: 2800000, guid: af37e999d260f624cbb18640c0d5944c, type: 3}
+  iconWepT3: {fileID: 2800000, guid: 735e1694a65b50c40a8b80838630c6bb, type: 3}
+  iconArmorT0: {fileID: 2800000, guid: 78a1a9706c9b89c47839d3d787a3d9f8, type: 3}
+  iconArmorT1: {fileID: 2800000, guid: 1ea0930d148ecdf419e9d7a919cf2b4c, type: 3}
+  iconArmorT2: {fileID: 2800000, guid: d40ec9f6170debb47a54ff8672ec8916, type: 3}
+  iconArmorT3: {fileID: 2800000, guid: d83694fd0823de84cb417ade9bea6631, type: 3}
+  iconBootsT0: {fileID: 2800000, guid: 8b64071204a8b2e45ab939b635caf1ca, type: 3}
+  iconBootsT1: {fileID: 2800000, guid: 3db984a1a28467c458d816b6a470509f, type: 3}
+  iconBootsT2: {fileID: 2800000, guid: 1337154b2cf61aa4cbeba2a9338cad1d, type: 3}
+  iconBootsT3: {fileID: 2800000, guid: 5cba2e569a74a1e49ad9cbd216f07251, type: 3}
+  iconGatT0: {fileID: 2800000, guid: 163c4412d43cdc64589491fc4b659d39, type: 3}
+  iconGatT1: {fileID: 2800000, guid: ae35ee6f520d7a64bb9a47039267d70f, type: 3}
+  iconGatT2: {fileID: 2800000, guid: fe1169ff5cb37454ea883e244d3721be, type: 3}
+  iconGatT3: {fileID: 2800000, guid: f1473d38b65e0cd4396184a7c3be21ad, type: 3}
+  iconMetalT1: {fileID: 2800000, guid: 99c96dbdb70617541ae2b52e2fa90d1d, type: 3}
+  iconMetalT2: {fileID: 2800000, guid: 736f76758862a8446816017906cd096f, type: 3}
+  iconMetalT3: {fileID: 2800000, guid: e800d6ccd4f952a4db1b90c47b87e0a1, type: 3}
+  iconTextilT1: {fileID: 2800000, guid: 0ff771c0d191ede4db185d83015867bf, type: 3}
+  iconTextilT2: {fileID: 2800000, guid: 7a5a916e020bba94ba62da36512e4022, type: 3}
+  iconTextilT3: {fileID: 2800000, guid: bff25e5e1fd0afb47bc74768a8c317b2, type: 3}
+  iconElectronicT1: {fileID: 2800000, guid: bb383c9cac820ae4b9b171dc29e36570, type: 3}
+  iconElectronicT2: {fileID: 2800000, guid: 38c7e55c15fef0f408622d3eb756600f, type: 3}
+  iconElectronicT3: {fileID: 2800000, guid: 148f3f9b5febcd54b97fe2452cd4b34e, type: 3}
+  Player1: {fileID: 0}
+  Player2: {fileID: 0}
+  redBG: {fileID: 2800000, guid: bf37d2ce47402984ca1ab5d65c002f00, type: 3}
+  blueBG: {fileID: 2800000, guid: 0760465f8c71ef9429a4b879fb889b59, type: 3}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4039b977c3093bc4cbc2f7521dfb5cad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winner: 
+  myStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
