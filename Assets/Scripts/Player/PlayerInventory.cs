@@ -47,7 +47,6 @@ public class PlayerInventory : MonoBehaviour {
 		{
 			if (playerAction && !isCollecting)
 			{
-				playerAction = false;
 				isCollecting = true;
 				showCollectTimeBar = true;
 				rigidbody.velocity = new Vector3(0,0,0);
@@ -64,6 +63,8 @@ public class PlayerInventory : MonoBehaviour {
 
 			if(isCollecting && Time.time > collectingTime)
 				doneCollecting();
+
+			playerAction = false;
 		}
 		else if(isInCollectingRange && collectible.GetComponent<RessourceStats>().harvested == true)
 		{
@@ -81,19 +82,12 @@ public class PlayerInventory : MonoBehaviour {
 
 		if (isInCraftingRange)
 		{
-			if ((Input.GetKeyDown(KeyCode.E)|| Input.GetButtonUp("joystick 1 button 0")) && playerNumber==1)
+			if (playerAction)
 			{
 				RestoreHealthPoints();
 				if ( nbRessources >= 4 )
 					giveInventoryToMerchant(merchant);
 
-			}
-			else if ((Input.GetKeyDown(KeyCode.RightControl) || Input.GetButtonUp("joystick 2 button 0")) && playerNumber==2)
-			{
-				RestoreHealthPoints();
-				if ( nbRessources >= 4 )
-					giveInventoryToMerchant(merchant);
-				
 			}
 		}
 	}
