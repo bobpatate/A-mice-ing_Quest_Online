@@ -1,0 +1,10 @@
+Parler des deux approches
+	RPC: quand données changent peu
+	...
+	Synchronization par serialization: quand beaucoup d'éléments actualiser
+	...
+
+Présenter jeux, approche par RPC
+Montrer code
+
+UDK vs Unity
