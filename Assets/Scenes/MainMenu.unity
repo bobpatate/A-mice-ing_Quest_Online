@@ -764,6 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5398177e17575742ace668b9bb78046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 1250984187}
 --- !u!4 &751525095
 Transform:
   m_ObjectHideFlags: 0
@@ -1399,6 +1400,45 @@ Transform:
   m_GameObject: {fileID: 1196417638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -66.5023041, y: 0, z: -31.4338226}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &1250984187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1250984189}
+  - 114: {fileID: 1250984188}
+  m_Layer: 0
+  m_Name: NetworkStuffObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1250984188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1250984187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc2acbe6fc67114ca284ac61cd0acf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stringToEdit: Ip address
+--- !u!4 &1250984189
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1250984187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 135.485992, y: 5.3717041, z: 17.846262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
