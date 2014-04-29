@@ -1,0 +1,23 @@
+Instructions:
+1. Ouvrir 2 instances de "build.exe".
+2. En mettre une en serveur avec l'adresse ip locale (par défaut 127.0.0.1).
+3. Cliquer 1 fois sur le bouton "client" de l'autre instance.
+4. Cliquer 1 autre fois sur le bouton "client" pour se connecter.
+
+Contrôles:
+L'instance serveur contrôle le joueur à gauche.
+L'instance client contrôle le joueur à droite.
+Utilisez WASD pour vous déplacer et E pour interagir avec les ressources et le chat.
+
+But du jeu:
+Récolter des ressources et les ramener au chat de sa couleur pour qu'il fabrique de l'équipement.
+Avec un bon équipement, on peut vaincre le chat adverse.
+(Le jeu fût développé en Game Jam, donc n'est pas complètement fonctionnel et contient plusieurs bogues graves.)
+
+Flot d'exécution:
+Les sections importantes du code sont numérotées dans leur ordre d'appèle afin de donné une idée du déroulement
+de la communication client-serveur.
+
+
+Version en ligne:
+gabrielhebert.com/realisations/interactif/a-mice-ing_quest_arena_online/Build_Online.html

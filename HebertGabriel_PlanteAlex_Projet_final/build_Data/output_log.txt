@@ -1,0 +1,54 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.2723]
+    Renderer: NVIDIA GeForce GTX 570
+    Vendor:   NVIDIA
+    VRAM:     1233 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\HebertGabriel_PlanteAlex_Projet_final\build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\HebertGabriel_PlanteAlex_Projet_final\build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\HebertGabriel_PlanteAlex_Projet_final\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\HebertGabriel_PlanteAlex_Projet_final\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.033 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\HebertGabriel_PlanteAlex_Projet_final\build_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 1.401986 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 0.758669 ms (FindLiveObjects: 0.071578 ms CreateObjectMapping: 0.013309 ms MarkObjects: 0.186044 ms  DeleteObjects: 0.137536 ms)
+
+UnloadTime: 5.066968 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5308 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 5.760271 ms (FindLiveObjects: 0.186635 ms CreateObjectMapping: 0.450765 ms MarkObjects: 0.220650 ms  DeleteObjects: 4.535455 ms)
+
+UnloadTime: 4.095930 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 244 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 0.981686 ms (FindLiveObjects: 0.077789 ms CreateObjectMapping: 0.034901 ms MarkObjects: 0.210297 ms  DeleteObjects: 0.318552 ms)
+
+UnloadTime: 6.250375 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 0.774937 ms (FindLiveObjects: 0.067733 ms CreateObjectMapping: 0.024549 ms MarkObjects: 0.194325 ms  DeleteObjects: 0.162677 ms)
+
+UnloadTime: 6.392940 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1276 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 2.472110 ms (FindLiveObjects: 0.131325 ms CreateObjectMapping: 0.175100 ms MarkObjects: 0.275369 ms  DeleteObjects: 1.423282 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Enemy.PlayerGone () [0x00000] in <filename unknown>:0 
+  at PlayerCombat.OnTriggerExit (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
