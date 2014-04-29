@@ -765,7 +765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 1250984187}
-  stringToEdit: Ip address
+  stringToEdit: 127.0.0.1
 --- !u!4 &751525095
 Transform:
   m_ObjectHideFlags: 0

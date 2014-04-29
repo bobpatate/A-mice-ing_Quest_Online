@@ -11,7 +11,59 @@ Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\M
 Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.035 seconds
+- Completed reload, in  0.032 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\System.Core.dll (this message is harmless)
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.2723]
+    Renderer: NVIDIA GeForce GTX 570
+    Vendor:   NVIDIA
+    VRAM:     1233 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.032 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\System.Core.dll (this message is harmless)
+MES PENISS
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+UnloadTime: 1.419141 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 0.755712 ms (FindLiveObjects: 0.072169 ms CreateObjectMapping: 0.014788 ms MarkObjects: 0.191959 ms  DeleteObjects: 0.111803 ms)
+
+UnloadTime: 0.670232 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 0.698922 ms (FindLiveObjects: 0.067437 ms CreateObjectMapping: 0.013605 ms MarkObjects: 0.170367 ms  DeleteObjects: 0.105888 ms)
+
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.2723]
+    Renderer: NVIDIA GeForce GTX 570
+    Vendor:   NVIDIA
+    VRAM:     1233 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Domicile\GitHub\A-mice-ing_Quest_Online\build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.032 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -27,9 +79,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -40,9 +89,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -53,9 +99,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -66,9 +109,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -79,9 +119,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -92,9 +129,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -105,9 +139,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -118,9 +149,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -131,9 +159,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -144,9 +169,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -157,9 +179,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -170,9 +189,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -183,9 +199,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -196,9 +209,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -209,9 +219,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -222,9 +229,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -235,9 +239,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -248,9 +249,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -261,9 +259,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -274,9 +269,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -287,9 +279,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -300,9 +289,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -313,9 +299,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -326,9 +309,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -339,9 +319,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -352,9 +329,6 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
@@ -365,1073 +339,55 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
  
 (Filename:  Line: -1)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
+UnloadTime: 9.095165 ms
+UnloadTime: 0.764881 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
-UnityEngine.NetworkView:Internal_RPC(NetworkView, String, RPCMode, Object[])
-UnityEngine.NetworkView:RPC(String, RPCMode, Object[])
-NetworkStuff:Update()
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkStuff.moveKey (System.String playerName, Single hor, Single vert) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 3918 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 5.259815 ms (FindLiveObjects: 0.186339 ms CreateObjectMapping: 0.414680 ms MarkObjects: 0.252298 ms  DeleteObjects: 3.980872 ms)
 
-UnloadTime: 0.910406 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 0.720812 ms (FindLiveObjects: 0.069803 ms CreateObjectMapping: 0.013901 ms MarkObjects: 0.185157 ms  DeleteObjects: 0.107959 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 0.808952 ms (FindLiveObjects: 0.076014 ms CreateObjectMapping: 0.015971 ms MarkObjects: 0.195213 ms  DeleteObjects: 0.124226 ms)
 
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
+UnloadTime: 4.257720 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Successfully added to inventory : Textile 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+Unloading 3852 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 4.192057 ms (FindLiveObjects: 0.178353 ms CreateObjectMapping: 0.277439 ms MarkObjects: 0.213847 ms  DeleteObjects: 3.169258 ms)
 
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Successfully added to inventory : Electronique 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Successfully added to inventory : Metal 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Successfully added to inventory : Electronique 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Successfully added to inventory : Textile 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Successfully added to inventory : Textile 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at Enemy.PlayerGone () [0x00000] in <filename unknown>:0 
-  at PlayerCombat.OnTriggerExit (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Fightooo!!!
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 18
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 15.5
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 16
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 11
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 14
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 6.5
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 12
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 2
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 10
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left -2.5
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Successfully added to inventory : Textile 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Fightooo!!!
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 8
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 15.5
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 6
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 11
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 4
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 6.5
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 2
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Enemy hp left 2
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Player hp left 0
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-You dead
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Can not play a disabled audio source
- 
-(Filename:  Line: 1470)
-
-Successfully added to inventory : Textile 1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-Couldn't send RPC function 'moveKey' to server
+Couldn't send RPC function 'moveKey'
 
  
 (Filename:  Line: 2458)
 
-Couldn't send RPC function 'moveKey' to server
+Couldn't send RPC function 'moveKey'
 
  
 (Filename:  Line: 2458)
 
-The server has disconnected from the client. Most likely the server has shut down.
+Couldn't send RPC function 'moveKey'
+
  
-(Filename:  Line: 740)
+(Filename:  Line: 2458)
+
+Couldn't send RPC function 'moveKey'
+
+ 
+(Filename:  Line: 2458)
+
+Couldn't send RPC function 'moveKey'
+
+ 
+(Filename:  Line: 2458)
+
+UnloadTime: 10.005865 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 110562 unused Assets to reduce memory usage. Loaded Objects now: 349.
+Total: 167.391861 ms (FindLiveObjects: 5.103940 ms CreateObjectMapping: 13.409675 ms MarkObjects: 0.180720 ms  DeleteObjects: 148.328094 ms)
 
