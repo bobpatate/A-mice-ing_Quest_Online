@@ -35,7 +35,7 @@ public class NetworkStuff : MonoBehaviour {
 	//4. Démarrage de partie
 	public void startGameMessage()
 	{
-		NetworkViewID viewID = Network.AllocateViewID();
+		NetworkViewID viewID = Network.AllocateViewID(); //La "fenetre" utilisée pour envoyer dans données
 		networkView.RPC ("startGame", RPCMode.All); //Tous chargent le niveau 1
 	}
 
